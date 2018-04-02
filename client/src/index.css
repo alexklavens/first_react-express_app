@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(241, 241, 241);
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: monospace, sans-serif;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+h1, h3, .header {
+    text-align: center;
+}
+h3 {
+    font-size: 1.2em;
+    font-family: monospace;
+    margin: 0;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 10px;
+
+}
+ul.header {
+  /* background-color: #111; */
+  padding: 0;
+}
+ul.header li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+
+ul.header li a:hover{
+    background-color: lightblue;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #0099FF;
+}
+
+
+
+.bill {
+    fill: rgb(209, 102, 68);
+
+}
+.textResult {
+    fill: white;
+}
+
+.savings {
+    fill: rgb(136, 186, 91);
+}
+.kwh {
+    fill: rgb(101, 0, 135);
+}
+
+.bill:hover,.savings:hover,.kwh:hover {
+    opacity: .9;
+    stroke: black;
+    stroke-width: .1;
+}
+
+.monthYear{
+    fill: black;
+}
+
+.kwhCirc {
+    /* fill: rgb(159, 62, 212); */
+    fill: rgb(230, 161, 70);
+    stroke: black;
+    stroke-width: 2;
+    fill-opacity: .99;
+}
+
+.kwhCirc:hover{
+    fill-opacity: .1;
+    stroke-width: 3;
+}
+
+.kwhText {
+    font-size: 2.5em;
+    font-family: monospace;
+    text-decoration: none;
+    cursor:default;
+}
+
+.kwhMonth {
+    font-size: 1.1em;
+    font-family: monospace;
+
+}
