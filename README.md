@@ -1,6 +1,6 @@
 # solar-costs-react-app
 
-## How to run
+#### How to run
 1. Have node/npm installed
 2. In a terminal tab, navigate to the directory and run npm start on port 3001:
     > PORT=3001 npm start
