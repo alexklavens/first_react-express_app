@@ -7,6 +7,7 @@
     
 3. In a new terminal tab, cd to solar-costs-react-app/client and run npm install and npm start:
     > npm install
+    
     > npm start
     
 This should open your site on port 3000. Access at localhost:3000. 
