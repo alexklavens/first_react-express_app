@@ -6,6 +6,8 @@
     > PORT=3001 npm start
     
 3. In a new terminal tab, cd to solar-costs-react-app/client and run npm install and npm start:
+    > cd solar-costs-react-app/client
+    
     > npm install
     
     > npm start
