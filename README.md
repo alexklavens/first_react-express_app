@@ -1,6 +1,6 @@
 # solar-costs-react-app
 
-Basic react-app with express/node backend.
+Basic React app with express/node backend.
 
 #### How to run
 1. Have node/npm installed
