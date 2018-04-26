@@ -1,5 +1,7 @@
 # solar-costs-react-app
 
+Basic react-app with express/node backend.
+
 #### How to run
 1. Have node/npm installed
 2. In a terminal tab, navigate to the directory and run npm start on port 3001:
